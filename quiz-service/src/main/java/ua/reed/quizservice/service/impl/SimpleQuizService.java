@@ -54,10 +54,7 @@ public class SimpleQuizService implements QuizService {
     public void restart(final RestartQuizRequest request) {
         if (request.restart()) {
             log.info("Restarting a quiz...");
-            // TODO reload questions
             questionRepository.clearAskedQuestions();
-
-            // TODO reset the flag
             gameHelperService.restartGame();
         }
     }

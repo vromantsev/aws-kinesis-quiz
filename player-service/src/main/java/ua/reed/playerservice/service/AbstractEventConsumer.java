@@ -29,7 +29,7 @@ public abstract class AbstractEventConsumer implements EventConsumer {
         return GetShardIteratorRequest.builder()
                 .streamName(stream)
                 .shardId(shard.shardId())
-                .shardIteratorType(ShardIteratorType.TRIM_HORIZON)
+                .shardIteratorType(ShardIteratorType.LATEST)
                 .build();
     }
 

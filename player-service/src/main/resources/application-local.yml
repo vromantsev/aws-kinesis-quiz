@@ -1,0 +1,8 @@
+kinesis:
+  question-stream: questions-stream
+  answers-stream: answers-stream
+  stats-stream: stats-stream
+  url: http://localhost:4566
+
+server:
+  port: 8082

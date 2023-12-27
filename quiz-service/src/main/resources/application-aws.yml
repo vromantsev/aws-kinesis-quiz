@@ -1,0 +1,7 @@
+kinesis:
+  question-stream: questions-stream
+  answers-stream: answers-stream
+  stats-stream: stats-stream
+
+server:
+  port: 8081
