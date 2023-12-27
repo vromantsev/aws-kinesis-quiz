@@ -1,0 +1,202 @@
+[
+  {
+    "question": "What does AWS stand for?",
+    "options": [
+      "Amazon Web Services",
+      "Advanced Web Solutions",
+      "Automated Workflow System",
+      "Application Web Servers"
+    ],
+    "answer": "Amazon Web Services"
+  },
+  {
+    "question": "Which AWS service is commonly used for scalable virtual servers in the cloud?",
+    "options": [
+      "Amazon S3",
+      "Amazon EC2",
+      "Amazon RDS",
+      "Amazon Lambda"
+    ],
+    "answer": "Amazon EC2"
+  },
+  {
+    "question": "What AWS service is designed for storing and retrieving any amount of data from anywhere on the web?",
+    "options": [
+      "Amazon Glacier",
+      "Amazon EBS",
+      "Amazon S3",
+      "Amazon DynamoDB"
+    ],
+    "answer": "Amazon S3"
+  },
+  {
+    "question": "Which AWS service provides a fully managed relational database service?",
+    "options": [
+      "Amazon Redshift",
+      "Amazon RDS",
+      "Amazon DynamoDB",
+      "Amazon Aurora"
+    ],
+    "answer": "Amazon RDS"
+  },
+  {
+    "question": "What is AWS Lambda primarily used for?",
+    "options": [
+      "Database management",
+      "Serverless computing",
+      "Content delivery",
+      "Machine learning"
+    ],
+    "answer": "Serverless computing"
+  },
+  {
+    "question": "Which AWS service is dedicated to machine learning and AI capabilities?",
+    "options": [
+      "Amazon EC2",
+      "Amazon S3",
+      "Amazon SageMaker",
+      "Amazon Comprehend"
+    ],
+    "answer": "Amazon SageMaker"
+  },
+  {
+    "question": "What is Amazon DynamoDB?",
+    "options": [
+      "Document storage service",
+      "NoSQL database service",
+      "Relational database service",
+      "In-memory caching service"
+    ],
+    "answer": "NoSQL database service"
+  },
+  {
+    "question": "What is the purpose of AWS CloudFormation?",
+    "options": [
+      "Network monitoring",
+      "Infrastructure as code",
+      "Load balancing",
+      "Authentication"
+    ],
+    "answer": "Infrastructure as code"
+  },
+  {
+    "question": "What does S3 stand for in Amazon S3?",
+    "options": [
+      "Simple Storage Service",
+      "Secure Storage System",
+      "Storage and Sync Service",
+      "Systematic Storage Solution"
+    ],
+    "answer": "Simple Storage Service"
+  },
+  {
+    "question": "Which AWS service is suitable for real-time messaging and event-driven computing?",
+    "options": [
+      "Amazon SQS",
+      "Amazon SNS",
+      "Amazon Kinesis",
+      "Amazon Connect"
+    ],
+    "answer": "Amazon Kinesis"
+  },
+  {
+    "question": "What is the purpose of Amazon VPC (Virtual Private Cloud)?",
+    "options": [
+      "Content delivery",
+      "Network isolation",
+      "Serverless computing",
+      "Database management"
+    ],
+    "answer": "Network isolation"
+  },
+  {
+    "question": "Which AWS service is used for scalable and flexible video processing in the cloud?",
+    "options": [
+      "Amazon Polly",
+      "Amazon Rekognition",
+      "Amazon Transcribe",
+      "Amazon Elastic Transcoder"
+    ],
+    "answer": "Amazon Elastic Transcoder"
+  },
+  {
+    "question": "What AWS service is used for global content delivery and acceleration?",
+    "options": [
+      "Amazon CloudFront",
+      "Amazon Route 53",
+      "Amazon ElastiCache",
+      "Amazon S3 Transfer Acceleration"
+    ],
+    "answer": "Amazon CloudFront"
+  },
+  {
+    "question": "What is AWS IAM used for?",
+    "options": [
+      "Infrastructure as code",
+      "Database management",
+      "Identity and Access Management",
+      "Serverless computing"
+    ],
+    "answer": "Identity and Access Management"
+  },
+  {
+    "question": "Which AWS service is a fully managed streaming data service?",
+    "options": [
+      "Amazon Kinesis",
+      "Amazon SQS",
+      "Amazon SNS",
+      "Amazon Connect"
+    ],
+    "answer": "Amazon Kinesis"
+  },
+  {
+    "question": "What is the purpose of Amazon CloudWatch?",
+    "options": [
+      "Billing and cost management",
+      "Application performance monitoring",
+      "Serverless computing",
+      "Database management"
+    ],
+    "answer": "Application performance monitoring"
+  },
+  {
+    "question": "Which AWS service provides a scalable and fully managed machine learning service for building custom models?",
+    "options": [
+      "Amazon SageMaker",
+      "Amazon Comprehend",
+      "Amazon Lex",
+      "Amazon Polly"
+    ],
+    "answer": "Amazon SageMaker"
+  },
+  {
+    "question": "What is the purpose of Amazon SNS (Simple Notification Service)?",
+    "options": [
+      "Serverless computing",
+      "Database management",
+      "Event-driven computing",
+      "Messaging and notifications"
+    ],
+    "answer": "Messaging and notifications"
+  },
+  {
+    "question": "Which AWS service is used for serverless data integration and data transformation?",
+    "options": [
+      "Amazon Glue",
+      "Amazon Athena",
+      "Amazon EMR",
+      "Amazon Redshift"
+    ],
+    "answer": "Amazon Glue"
+  },
+  {
+    "question": "What is the purpose of AWS Elastic Beanstalk?",
+    "options": [
+      "Serverless computing",
+      "Database management",
+      "Platform as a Service (PaaS)",
+      "Content delivery"
+    ],
+    "answer": "Platform as a Service (PaaS)"
+  }
+]

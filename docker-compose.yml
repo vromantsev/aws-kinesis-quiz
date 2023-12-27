@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  localstack:
+    image: localstack/localstack
+    environment:
+      - SERVICES=s3,lambda,dynamodb,kinesis
+      - DEBUG=1
+      - DATA_DIR=/tmp/localstack/data
+    ports:
+      - "4566-4599:4566-4599"
+    volumes:
+      - "${TMPDIR:-/tmp}/localstack:/var/lib/localstack"
+      - "/var/run/docker.sock:/var/run/docker.sock"
+  dynamodb-admin:
+    image: aaronshaf/dynamodb-admin
+    environment:
+      - DYNAMO_ENDPOINT=localstack:4566
+    ports:
+      - 8001:8001
