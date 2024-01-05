@@ -1,4 +1,4 @@
-package ua.reed.quizservice.service;
+package ua.reed.quizservice.service.processor;
 
 import software.amazon.awssdk.services.kinesis.model.Record;
 

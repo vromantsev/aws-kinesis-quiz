@@ -1,4 +1,4 @@
-package ua.reed.quizservice.service.impl;
+package ua.reed.quizservice.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -8,9 +8,9 @@ import ua.reed.quizservice.config.KinesisProperties;
 import ua.reed.quizservice.dto.RestartQuizRequest;
 import ua.reed.quizservice.model.Question;
 import ua.reed.quizservice.repository.QuestionRepository;
-import ua.reed.quizservice.service.EventConsumer;
-import ua.reed.quizservice.service.EventSender;
-import ua.reed.quizservice.service.GameHelperService;
+import ua.reed.quizservice.service.kinesis.EventConsumer;
+import ua.reed.quizservice.service.kinesis.EventSender;
+import ua.reed.quizservice.service.helper.GameHelperService;
 import ua.reed.quizservice.service.QuizService;
 import ua.reed.quizservice.service.event.QuizQuestionEvent;
 

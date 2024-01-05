@@ -1,4 +1,4 @@
-package ua.reed.quizservice.service;
+package ua.reed.quizservice.service.stats;
 
 import ua.reed.quizservice.model.GameStats;
 

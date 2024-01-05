@@ -1,4 +1,4 @@
-package ua.reed.quizservice.service;
+package ua.reed.quizservice.service.helper;
 
 public interface GameHelperService {
 

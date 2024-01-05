@@ -1,4 +1,4 @@
-package ua.reed.playerservice.service;
+package ua.reed.quizservice.service.kinesis;
 
 public interface EventConsumer {
 

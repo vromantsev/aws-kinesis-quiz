@@ -1,4 +1,4 @@
-package ua.reed.quizservice.service.impl;
+package ua.reed.quizservice.service.processor;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
@@ -7,8 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 import software.amazon.awssdk.services.kinesis.model.Record;
 import ua.reed.quizservice.repository.PlayerRepository;
-import ua.reed.quizservice.service.QuizProcessor;
-import ua.reed.quizservice.service.StatService;
+import ua.reed.quizservice.service.stats.StatService;
 import ua.reed.quizservice.service.event.QuizAnswerEvent;
 
 import java.util.List;

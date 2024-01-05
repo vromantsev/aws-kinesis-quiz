@@ -1,11 +1,10 @@
-package ua.reed.quizservice.service.impl;
+package ua.reed.quizservice.service.stats;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import ua.reed.quizservice.model.GameStats;
 import ua.reed.quizservice.repository.PlayerRepository;
 import ua.reed.quizservice.repository.QuestionRepository;
-import ua.reed.quizservice.service.StatService;
 
 import java.util.ArrayList;
 import java.util.List;

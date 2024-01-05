@@ -1,4 +1,4 @@
-package ua.reed.quizservice.service.impl;
+package ua.reed.quizservice.service.kinesis;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
@@ -8,7 +8,6 @@ import org.springframework.stereotype.Component;
 import software.amazon.awssdk.core.SdkBytes;
 import software.amazon.awssdk.services.kinesis.KinesisClient;
 import software.amazon.awssdk.services.kinesis.model.PutRecordRequest;
-import ua.reed.quizservice.service.EventSender;
 import ua.reed.quizservice.service.event.Event;
 
 import java.nio.ByteBuffer;

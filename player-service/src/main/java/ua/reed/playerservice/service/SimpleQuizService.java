@@ -1,11 +1,10 @@
-package ua.reed.playerservice.service.impl;
+package ua.reed.playerservice.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import ua.reed.playerservice.config.KinesisProperties;
-import ua.reed.playerservice.service.EventConsumer;
-import ua.reed.playerservice.service.QuizService;
+import ua.reed.playerservice.service.kinesis.EventConsumer;
 
 @Service
 @RequiredArgsConstructor

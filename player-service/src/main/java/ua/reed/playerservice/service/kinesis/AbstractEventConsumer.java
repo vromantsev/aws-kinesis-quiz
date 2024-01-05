@@ -1,4 +1,4 @@
-package ua.reed.playerservice.service;
+package ua.reed.playerservice.service.kinesis;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
@@ -8,6 +8,7 @@ import software.amazon.awssdk.services.kinesis.model.Shard;
 import software.amazon.awssdk.services.kinesis.model.ShardIteratorType;
 import ua.reed.playerservice.service.event.GameOverEvent;
 import ua.reed.playerservice.service.event.StatsEvent;
+import ua.reed.playerservice.service.helper.GameHelperService;
 
 import java.io.IOException;
 import java.util.Optional;

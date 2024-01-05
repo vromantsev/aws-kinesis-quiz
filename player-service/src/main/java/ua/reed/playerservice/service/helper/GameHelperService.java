@@ -1,4 +1,4 @@
-package ua.reed.playerservice.service;
+package ua.reed.playerservice.service.helper;
 
 public interface GameHelperService {
 

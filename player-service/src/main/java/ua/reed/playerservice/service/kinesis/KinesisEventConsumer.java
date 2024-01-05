@@ -1,4 +1,4 @@
-package ua.reed.playerservice.service.impl;
+package ua.reed.playerservice.service.kinesis;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.SneakyThrows;
@@ -11,9 +11,7 @@ import software.amazon.awssdk.services.kinesis.model.Record;
 import ua.reed.playerservice.config.KinesisProperties;
 import ua.reed.playerservice.model.Player;
 import ua.reed.playerservice.repository.PlayerRepository;
-import ua.reed.playerservice.service.AbstractEventConsumer;
-import ua.reed.playerservice.service.EventSender;
-import ua.reed.playerservice.service.GameHelperService;
+import ua.reed.playerservice.service.helper.GameHelperService;
 import ua.reed.playerservice.service.event.QuizAnswerEvent;
 import ua.reed.playerservice.service.event.QuizQuestionEvent;
 

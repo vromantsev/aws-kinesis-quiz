@@ -1,8 +1,7 @@
-package ua.reed.playerservice.service.impl;
+package ua.reed.playerservice.service.helper;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import ua.reed.playerservice.service.GameHelperService;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 

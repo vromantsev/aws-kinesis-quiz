@@ -1,6 +1,7 @@
-package ua.reed.quizservice.service;
+package ua.reed.playerservice.service.kinesis;
 
-import ua.reed.quizservice.service.event.Event;
+
+import ua.reed.playerservice.service.event.Event;
 
 public interface EventSender {
 
